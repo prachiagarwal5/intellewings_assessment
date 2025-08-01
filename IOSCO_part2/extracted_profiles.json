@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "688ba14f89f2b411513b8900",
+    "name": "streamfund-invest.ltd",
+    "website": "streamfund-invest.ltd",
+    "authority": "Financial Conduct Authority",
+    "date": "2025-07-30",
+    "status": "Alert/Warning",
+    "nature_of_violation": "Unauthorized investment services",
+    "actions_taken": "Regulatory alert issued",
+    "additional_metadata": {
+      "scraped_at": 1753981263.8860214,
+      "region": "United Kingdom",
+      "source": "IOSCO I-SCAN",
+      "scraped_index": 0
+    }
+  },
+  {
+    "_id": "688ba15089f2b411513b8901",
+    "name": "Patrimoine Trade",
+    "website": "patrimoinetrade.pro",
+    "authority": "Financial Conduct Authority",
+    "date": "2025-07-30",
+    "status": "Alert/Warning",
+    "nature_of_violation": "Unauthorized investment services",
+    "actions_taken": "Regulatory alert issued",
+    "additional_metadata": {
+      "scraped_at": 1753981264.4289896,
+      "region": "United Kingdom",
+      "source": "IOSCO I-SCAN",
+      "scraped_index": 1
+    }
+  },
+  {
+    "_id": "688ba15089f2b411513b8902",
+    "name": "MarvexTrader",
+    "website": "marvextrader-app.net",
+    "authority": "Financial Conduct Authority",
+    "date": "2025-07-30",
+    "status": "Alert/Warning",
+    "nature_of_violation": "Unauthorized investment services",
+    "actions_taken": "Regulatory alert issued",
+    "additional_metadata": {
+      "scraped_at": 1753981264.5582201,
+      "region": "United Kingdom",
+      "source": "IOSCO I-SCAN",
+      "scraped_index": 2
+    }
+  },
+  {
+    "_id": "688ba15089f2b411513b8903",
+    "name": "Facebook page “King of Salad Ohkad’s”",
+    "website": "https://www.facebook.com/profile.php?id=100089791899596",
+    "authority": "Securities and Exchange Commission",
+    "date": "2025-07-30",
+    "status": "Alert/Warning",
+    "nature_of_violation": "Unauthorized investment services",
+    "actions_taken": "Regulatory alert issued",
+    "additional_metadata": {
+      "scraped_at": 1753981264.6848605,
+      "region": "Thailand",
+      "source": "IOSCO I-SCAN",
+      "scraped_index": 3
+    }
+  },
+  {
+    "_id": "688ba15089f2b411513b8904",
+    "name": "Facebook page “Amazon Thai Business”",
+    "website": "https://www.facebook.com/profile.php?id=61558309029496",
+    "authority": "Securities and Exchange Commission",
+    "date": "2025-07-30",
+    "status": "Alert/Warning",
+    "nature_of_violation": "Unauthorized investment services",
+    "actions_taken": "Regulatory alert issued",
+    "additional_metadata": {
+      "scraped_at": 1753981264.806379,
+      "region": "Thailand",
+      "source": "IOSCO I-SCAN",
+      "scraped_index": 4
+    }
+  }
+]
