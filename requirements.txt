@@ -8,9 +8,10 @@ transformers>=4.24.0
 tqdm>=4.64.1
 python-dotenv>=0.21.0
 torch>=1.13.0
-blis>=0.7.11
 thinc>=8.2.5
-dotenv
+python-dotenv
+# spaCy small English model
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
 
 
 #IOSCO_part2
@@ -19,4 +20,4 @@ beautifulsoup4>=4.11.1
 pymongo>=4.3.3
 selenium
 webdriver-manager
-dotenv
+python-dotenv

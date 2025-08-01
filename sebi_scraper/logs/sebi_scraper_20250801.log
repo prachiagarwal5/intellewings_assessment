@@ -1,0 +1,1270 @@
+2025-08-01 19:23:51,385 - src.utils - INFO - Starting SEBI enforcement orders scraper
+2025-08-01 19:23:54,305 - src.database - INFO - Connected to MongoDB successfully
+2025-08-01 19:23:54,306 - src.utils - INFO - Loading spaCy NLP model...
+2025-08-01 19:23:54,308 - src.utils - ERROR - Fatal error in main process: [E050] Can't find model 'en_core_web_lg'. It doesn't seem to be a Python package or a valid path to a data directory.
+2025-08-01 22:10:34,010 - src.utils - INFO - Starting SEBI enforcement orders scraper
+2025-08-01 22:10:34,135 - src.database - WARNING - MongoDB connection attempt 1 failed: 'MongoClient' object is not iterable. Retrying in 5 seconds...
+2025-08-01 22:10:39,136 - src.database - WARNING - MongoDB connection attempt 2 failed: 'MongoClient' object is not iterable. Retrying in 5 seconds...
+2025-08-01 22:10:44,137 - src.database - ERROR - Failed to connect to MongoDB after 3 attempts: 'MongoClient' object is not iterable
+2025-08-01 22:10:44,138 - src.utils - ERROR - Fatal error in main process: 'MongoClient' object is not iterable
+2025-08-01 22:15:50,324 - src.utils - INFO - Starting SEBI enforcement orders scraper
+2025-08-01 22:15:51,200 - src.database - INFO - Connected to MongoDB successfully
+2025-08-01 22:15:51,201 - src.utils - INFO - Loading spaCy NLP model...
+2025-08-01 22:15:51,201 - src.utils - ERROR - Fatal error in main process: [E050] Can't find model 'en_core_web_lg'. It doesn't seem to be a Python package or a valid path to a data directory.
+2025-08-01 22:16:53,285 - src.utils - INFO - Starting SEBI enforcement orders scraper
+2025-08-01 22:16:54,312 - src.database - INFO - Connected to MongoDB successfully
+2025-08-01 22:16:54,313 - src.utils - INFO - Loading spaCy NLP model...
+2025-08-01 22:16:54,668 - src.sentiment - INFO - Loading sentiment analysis model...
+2025-08-01 22:16:56,244 - src.sentiment - INFO - Sentiment analysis model loaded successfully
+2025-08-01 22:16:56,293 - src.utils - INFO - Resuming from page 425, last PDF: None
+2025-08-01 22:16:56,293 - src.utils - INFO - Validating base URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6
+2025-08-01 22:16:57,434 - src.utils - INFO - Base URL validation successful
+2025-08-01 22:16:57,440 - src.utils - INFO - Found 0 PDF links to process
+2025-08-01 22:16:57,440 - src.utils - WARNING - No PDF links found. Check URL format or page range.
+2025-08-01 22:17:49,957 - src.utils - INFO - Starting SEBI enforcement orders scraper
+2025-08-01 22:17:52,429 - src.database - INFO - Connected to MongoDB successfully
+2025-08-01 22:17:52,431 - src.utils - INFO - Loading spaCy NLP model...
+2025-08-01 22:17:52,788 - src.sentiment - INFO - Loading sentiment analysis model...
+2025-08-01 22:17:54,442 - src.sentiment - INFO - Sentiment analysis model loaded successfully
+2025-08-01 22:17:54,482 - src.utils - INFO - Resuming from page 425, last PDF: None
+2025-08-01 22:17:54,483 - src.utils - INFO - Validating base URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6
+2025-08-01 22:18:05,418 - src.utils - INFO - Base URL validation successful
+2025-08-01 22:18:05,421 - src.utils - INFO - Found 0 PDF links to process
+2025-08-01 22:18:05,421 - src.utils - WARNING - No PDF links found. Check URL format or page range.
+2025-08-01 22:19:05,330 - src.utils - INFO - Starting SEBI enforcement orders scraper
+2025-08-01 22:19:07,516 - src.database - INFO - Connected to MongoDB successfully
+2025-08-01 22:19:07,517 - src.utils - INFO - Loading spaCy NLP model...
+2025-08-01 22:19:07,866 - src.sentiment - INFO - Loading sentiment analysis model...
+2025-08-01 22:19:09,037 - src.sentiment - INFO - Sentiment analysis model loaded successfully
+2025-08-01 22:19:09,078 - src.utils - INFO - Resuming from page 1, last PDF: None
+2025-08-01 22:19:09,078 - src.utils - INFO - Validating base URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6
+2025-08-01 22:19:10,245 - src.utils - INFO - Base URL validation successful
+2025-08-01 22:19:10,245 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/enforcement/orders.html
+2025-08-01 22:19:11,234 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=1
+2025-08-01 22:19:13,605 - src.scraper - INFO - Searching for order links on page 1 using URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=1
+2025-08-01 22:19:13,612 - src.scraper - INFO - Found 25 PDF links on page 1
+2025-08-01 22:19:13,655 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=2
+2025-08-01 22:19:14,960 - src.scraper - INFO - Searching for order links on page 2 using URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=2
+2025-08-01 22:19:14,968 - src.scraper - INFO - Found 25 PDF links on page 2
+2025-08-01 22:19:15,009 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=3
+2025-08-01 22:19:16,435 - src.scraper - INFO - Searching for order links on page 3 using URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=3
+2025-08-01 22:19:16,441 - src.scraper - INFO - Found 25 PDF links on page 3
+2025-08-01 22:19:16,485 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=4
+2025-08-01 22:19:17,630 - src.scraper - INFO - Searching for order links on page 4 using URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=4
+2025-08-01 22:19:17,637 - src.scraper - INFO - Found 25 PDF links on page 4
+2025-08-01 22:19:17,680 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=5
+2025-08-01 22:19:19,075 - src.scraper - INFO - Searching for order links on page 5 using URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=5
+2025-08-01 22:19:19,084 - src.scraper - INFO - Found 25 PDF links on page 5
+2025-08-01 22:19:19,130 - src.utils - INFO - Found 125 PDF links to process
+2025-08-01 22:19:19,214 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/order-in-the-matter-of-decipher-labs-limited_95776.html
+2025-08-01 22:19:20,060 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1754060703203_1.pdf
+2025-08-01 22:19:24,738 - src.extractor - WARNING - Text too large (146460 chars), truncating to 100000
+2025-08-01 22:20:20,641 - src.utils - INFO - Saved 556 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/order-in-the-matter-of-decipher-labs-limited_95776.html
+2025-08-01 22:20:20,779 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/order-in-the-matter-of-patels-airtemp-india-limited_95774.html
+2025-08-01 22:20:21,535 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1754058002716_1.pdf
+2025-08-01 22:22:54,856 - src.utils - INFO - Saved 814 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/order-in-the-matter-of-patels-airtemp-india-limited_95774.html
+2025-08-01 22:22:55,898 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/settlement-order-in-respect-of-national-stock-exchange-of-india-limited-nseil-in-the-matter-of-inspection-of-nseil-for-the-period-february-01-2021-to-march-31-2022_95768.html
+2025-08-01 22:22:58,873 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1754049134419.pdf
+2025-08-01 22:23:38,762 - src.utils - INFO - Saved 44 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/settlement-order-in-respect-of-national-stock-exchange-of-india-limited-nseil-in-the-matter-of-inspection-of-nseil-for-the-period-february-01-2021-to-march-31-2022_95768.html
+2025-08-01 22:23:38,894 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/order-in-the-matter-of-sarvoday-agro-power-limited_95765.html
+2025-08-01 22:23:39,717 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1754042703245_1.pdf
+2025-08-01 22:24:57,584 - src.utils - INFO - Saved 532 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/order-in-the-matter-of-sarvoday-agro-power-limited_95765.html
+2025-08-01 22:24:57,715 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/adjudication-order-in-the-matter-of-hypersoft-technologies-limited_95747.html
+2025-08-01 22:24:58,506 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753970702627_1.pdf
+2025-08-01 22:25:26,435 - src.utils - INFO - Saved 205 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/adjudication-order-in-the-matter-of-hypersoft-technologies-limited_95747.html
+2025-08-01 22:25:26,571 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/enquiry-order-in-the-matter-of-manoj-jethanand-varyani-proprietor-of-smart-financial_95744.html
+2025-08-01 22:25:29,143 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753964403439_1.pdf
+2025-08-01 22:26:31,437 - src.utils - INFO - Starting SEBI enforcement orders scraper
+2025-08-01 22:26:47,769 - src.database - INFO - Connected to MongoDB successfully
+2025-08-01 22:26:47,770 - src.utils - INFO - Loading spaCy NLP model...
+2025-08-01 22:26:48,120 - src.sentiment - INFO - Loading sentiment analysis model...
+2025-08-01 22:26:49,288 - src.sentiment - INFO - Sentiment analysis model loaded successfully
+2025-08-01 22:26:49,904 - src.utils - INFO - Resuming from page 1, last PDF: None
+2025-08-01 22:26:49,904 - src.utils - INFO - Validating base URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6
+2025-08-01 22:26:51,065 - src.utils - INFO - Base URL validation successful
+2025-08-01 22:26:51,066 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/enforcement/orders.html
+2025-08-01 22:26:51,379 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=1
+2025-08-01 22:26:52,590 - src.scraper - INFO - Searching for order links on page 1 using URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=1
+2025-08-01 22:26:52,596 - src.scraper - INFO - Found 25 PDF links on page 1
+2025-08-01 22:26:52,769 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=2
+2025-08-01 22:26:54,003 - src.scraper - INFO - Searching for order links on page 2 using URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=2
+2025-08-01 22:26:54,010 - src.scraper - INFO - Found 25 PDF links on page 2
+2025-08-01 22:26:54,179 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=3
+2025-08-01 22:26:55,349 - src.scraper - INFO - Searching for order links on page 3 using URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=3
+2025-08-01 22:26:55,356 - src.scraper - INFO - Found 25 PDF links on page 3
+2025-08-01 22:26:55,527 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=4
+2025-08-01 22:26:56,701 - src.scraper - INFO - Searching for order links on page 4 using URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=4
+2025-08-01 22:26:56,707 - src.scraper - INFO - Found 25 PDF links on page 4
+2025-08-01 22:26:57,303 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=5
+2025-08-01 22:26:58,402 - src.scraper - INFO - Searching for order links on page 5 using URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=5
+2025-08-01 22:26:58,408 - src.scraper - INFO - Found 25 PDF links on page 5
+2025-08-01 22:26:58,581 - src.utils - INFO - Found 125 PDF links to process
+2025-08-01 22:26:58,751 - src.utils - INFO - Skipping already processed PDF: https://www.sebi.gov.in/enforcement/orders/jul-2025/order-in-the-matter-of-decipher-labs-limited_95776.html
+2025-08-01 22:26:58,918 - src.utils - INFO - Skipping already processed PDF: https://www.sebi.gov.in/enforcement/orders/jul-2025/order-in-the-matter-of-patels-airtemp-india-limited_95774.html
+2025-08-01 22:26:59,087 - src.utils - INFO - Skipping already processed PDF: https://www.sebi.gov.in/enforcement/orders/jul-2025/settlement-order-in-respect-of-national-stock-exchange-of-india-limited-nseil-in-the-matter-of-inspection-of-nseil-for-the-period-february-01-2021-to-march-31-2022_95768.html
+2025-08-01 22:26:59,256 - src.utils - INFO - Skipping already processed PDF: https://www.sebi.gov.in/enforcement/orders/jul-2025/order-in-the-matter-of-sarvoday-agro-power-limited_95765.html
+2025-08-01 22:26:59,815 - src.utils - INFO - Skipping already processed PDF: https://www.sebi.gov.in/enforcement/orders/jul-2025/adjudication-order-in-the-matter-of-hypersoft-technologies-limited_95747.html
+2025-08-01 22:27:00,157 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/enquiry-order-in-the-matter-of-manoj-jethanand-varyani-proprietor-of-smart-financial_95744.html
+2025-08-01 22:27:00,927 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753964403439_1.pdf
+2025-08-01 22:27:15,680 - src.utils - INFO - Saved 220 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/enquiry-order-in-the-matter-of-manoj-jethanand-varyani-proprietor-of-smart-financial_95744.html
+2025-08-01 22:27:16,991 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/adjudication-order-in-the-matter-of-streetgains-research-services-proprietor-kumar-venkataramegowda-santhosh-research-analyst_95738.html
+2025-08-01 22:27:27,936 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753959903093_1.pdf
+2025-08-01 22:29:44,445 - src.extractor - WARNING - Text too large (122230 chars), truncating to 100000
+2025-08-01 22:30:42,374 - src.utils - INFO - Saved 553 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/adjudication-order-in-the-matter-of-streetgains-research-services-proprietor-kumar-venkataramegowda-santhosh-research-analyst_95738.html
+2025-08-01 22:30:43,246 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/adjudication-order-in-the-matter-of-goldenpi-securities-private-limited_95736.html
+2025-08-01 22:30:46,710 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753956302630_1.pdf
+2025-08-01 22:32:23,415 - src.utils - INFO - Saved 327 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/adjudication-order-in-the-matter-of-goldenpi-securities-private-limited_95736.html
+2025-08-01 22:32:24,686 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/confirm_order_gensol_engg.pdf
+2025-08-01 22:33:38,082 - src.utils - INFO - Saved 669 entities from https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/confirm_order_gensol_engg.pdf
+2025-08-01 22:33:39,149 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/settlement-order-in-the-matter-of-suspected-insider-trading-in-the-scrip-of-avg-logistics-limited_95713.html
+2025-08-01 22:33:39,898 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753875288438.pdf
+2025-08-01 22:33:50,882 - src.utils - INFO - Saved 64 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/settlement-order-in-the-matter-of-suspected-insider-trading-in-the-scrip-of-avg-logistics-limited_95713.html
+2025-08-01 22:33:51,724 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/adjudication-order-in-the-matter-of-options-king-research-analyst-proprietor-sunil-suklal-pawar_95709.html
+2025-08-01 22:33:52,316 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753873502700_1.pdf
+2025-08-01 22:34:13,918 - src.utils - INFO - Saved 204 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/adjudication-order-in-the-matter-of-options-king-research-analyst-proprietor-sunil-suklal-pawar_95709.html
+2025-08-01 22:34:15,896 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/adjudication-order-in-the-matter-of-darshan-orna-limited_95706.html
+2025-08-01 22:34:16,691 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753869903044_1.pdf
+2025-08-01 22:34:21,415 - src.extractor - WARNING - Text too large (189433 chars), truncating to 100000
+2025-08-01 22:35:42,089 - src.utils - INFO - Saved 677 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/adjudication-order-in-the-matter-of-darshan-orna-limited_95706.html
+2025-08-01 22:35:43,339 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6466-of-2025-filed-by-kashfaddoja-adil_95700.html
+2025-08-01 22:35:44,179 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753850096856.pdf
+2025-08-01 22:35:46,466 - src.utils - INFO - Saved 15 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6466-of-2025-filed-by-kashfaddoja-adil_95700.html
+2025-08-01 22:35:46,973 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6476-of-2025-filed-by-ankit-sharma_95698.html
+2025-08-01 22:35:47,607 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753850042981.pdf
+2025-08-01 22:35:49,291 - src.utils - INFO - Saved 6 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6476-of-2025-filed-by-ankit-sharma_95698.html
+2025-08-01 22:35:50,549 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6475-of-2025-filed-by-satish-chandra-chamoli_95696.html
+2025-08-01 22:35:51,174 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753850003462.pdf
+2025-08-01 22:35:53,610 - src.utils - INFO - Saved 13 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6475-of-2025-filed-by-satish-chandra-chamoli_95696.html
+2025-08-01 22:35:54,888 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6474-of-2025-filed-by-abhay-ranjan-gupta_95695.html
+2025-08-01 22:35:55,502 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753849960322.pdf
+2025-08-01 22:36:00,262 - src.utils - INFO - Saved 37 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6474-of-2025-filed-by-abhay-ranjan-gupta_95695.html
+2025-08-01 22:36:02,359 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6473-of-2025-filed-by-geeta-rani_95694.html
+2025-08-01 22:36:02,972 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753849920582.pdf
+2025-08-01 22:36:06,453 - src.utils - INFO - Saved 20 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6473-of-2025-filed-by-geeta-rani_95694.html
+2025-08-01 22:36:06,971 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6472-of-2025-filed-by-nitin-goradia_95692.html
+2025-08-01 22:36:07,580 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753849877407.pdf
+2025-08-01 22:36:15,260 - src.utils - INFO - Saved 40 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6472-of-2025-filed-by-nitin-goradia_95692.html
+2025-08-01 22:36:15,391 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6469-of-2025-filed-by-nitin-goradia_95691.html
+2025-08-01 22:36:16,022 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753849835292.pdf
+2025-08-01 22:36:23,133 - src.utils - INFO - Saved 40 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6469-of-2025-filed-by-nitin-goradia_95691.html
+2025-08-01 22:36:23,290 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6468-of-2025-filed-by-nitin-goradia_95690.html
+2025-08-01 22:36:23,903 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753849792565.pdf
+2025-08-01 22:36:30,544 - src.utils - INFO - Saved 39 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6468-of-2025-filed-by-nitin-goradia_95690.html
+2025-08-01 22:36:30,674 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6467-of-2025-filed-by-nitin-goradia_95688.html
+2025-08-01 22:36:31,286 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753849748708.pdf
+2025-08-01 22:36:37,540 - src.utils - INFO - Saved 41 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/appeal-no-6467-of-2025-filed-by-nitin-goradia_95688.html
+2025-08-01 22:36:37,680 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/order-in-the-matter-of-priyanka-yadav-proprietor-of-trade-money-research_95687.html
+2025-08-01 22:36:38,288 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753797002552_1.pdf
+2025-08-01 22:37:30,591 - src.utils - INFO - Saved 391 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/order-in-the-matter-of-priyanka-yadav-proprietor-of-trade-money-research_95687.html
+2025-08-01 22:37:30,720 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/adjudication-order-in-the-matter-of-suspected-insider-trading-activity-of-certain-entities-in-the-scrip-hdfc-limited-and-hdfc-bank-limited_95681.html
+2025-08-01 22:37:31,528 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753789804303_1.pdf
+2025-08-01 22:38:02,626 - src.utils - INFO - Saved 622 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/adjudication-order-in-the-matter-of-suspected-insider-trading-activity-of-certain-entities-in-the-scrip-hdfc-limited-and-hdfc-bank-limited_95681.html
+2025-08-01 22:38:02,751 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/adjudication-order-in-the-matter-of-asl-industries-ltd_95678.html
+2025-08-01 22:38:03,507 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1753787103541_1.pdf
+2025-08-01 22:39:55,291 - src.utils - INFO - Starting SEBI enforcement orders scraper
+2025-08-01 22:39:59,938 - src.database - INFO - Connected to MongoDB successfully
+2025-08-01 22:39:59,939 - src.utils - INFO - Loading spaCy NLP model...
+2025-08-01 22:40:00,280 - src.sentiment - INFO - Loading sentiment analysis model...
+2025-08-01 22:40:01,469 - src.sentiment - INFO - Sentiment analysis model loaded successfully
+2025-08-01 22:40:01,510 - src.utils - INFO - Resuming from page 425, last PDF: None
+2025-08-01 22:40:01,510 - src.utils - INFO - Validating base URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6
+2025-08-01 22:40:02,806 - src.utils - INFO - Base URL validation successful
+2025-08-01 22:40:02,810 - src.utils - INFO - Found 0 PDF links to process
+2025-08-01 22:40:02,811 - src.utils - WARNING - No PDF links found. Check URL format or page range.
+2025-08-01 22:40:24,214 - src.utils - INFO - Starting SEBI enforcement orders scraper
+2025-08-01 22:40:25,215 - src.database - INFO - Connected to MongoDB successfully
+2025-08-01 22:40:25,217 - src.utils - INFO - Loading spaCy NLP model...
+2025-08-01 22:40:25,579 - src.sentiment - INFO - Loading sentiment analysis model...
+2025-08-01 22:40:26,836 - src.sentiment - INFO - Sentiment analysis model loaded successfully
+2025-08-01 22:40:26,872 - src.utils - INFO - Resuming from page 1, last PDF: None
+2025-08-01 22:40:26,872 - src.utils - INFO - Validating base URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6
+2025-08-01 22:40:28,164 - src.utils - INFO - Base URL validation successful
+2025-08-01 22:40:28,164 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/enforcement/orders.html
+2025-08-01 22:40:28,487 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=1
+2025-08-01 22:40:29,817 - src.scraper - INFO - Searching for order links on page 1 using URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=1
+2025-08-01 22:40:29,828 - src.scraper - INFO - Found 25 PDF links on page 1
+2025-08-01 22:40:29,868 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=2
+2025-08-01 22:40:31,131 - src.scraper - INFO - Searching for order links on page 2 using URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=2
+2025-08-01 22:40:31,140 - src.scraper - INFO - Found 25 PDF links on page 2
+2025-08-01 22:40:31,180 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=3
+2025-08-01 22:40:32,309 - src.scraper - INFO - Searching for order links on page 3 using URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=3
+2025-08-01 22:40:32,315 - src.scraper - INFO - Found 25 PDF links on page 3
+2025-08-01 22:40:32,354 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=4
+2025-08-01 22:40:33,504 - src.scraper - INFO - Searching for order links on page 4 using URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=4
+2025-08-01 22:40:33,510 - src.scraper - INFO - Found 25 PDF links on page 4
+2025-08-01 22:40:33,550 - src.scraper - INFO - Fetching page: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=5
+2025-08-01 22:40:34,717 - src.scraper - INFO - Searching for order links on page 5 using URL: https://www.sebi.gov.in/sebiweb/home/HomeAction.do?doListing=yes&sid=2&ssid=9&smid=6?pagenum=5
+2025-08-01 22:40:34,723 - src.scraper - INFO - Found 25 PDF links on page 5
+2025-08-01 22:40:34,762 - src.utils - INFO - Found 125 PDF links to process
+2025-08-01 22:40:34,838 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/order-in-the-matter-of-decipher-labs-limited_95776.html
+2025-08-01 22:40:35,632 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1754060703203_1.pdf
+2025-08-01 22:40:39,635 - src.extractor - WARNING - Text too large (146460 chars), truncating to 100000
+2025-08-01 22:40:44,428 - src.extractor - INFO - Found 6 PAN numbers in text
+2025-08-01 22:40:44,428 - src.extractor - INFO - Paired entity 'Decipher Labs Ltd.' with PAN 'ACAPA0374P' (distance: 421)
+2025-08-01 22:40:44,429 - src.extractor - INFO - Paired entity 'QJA' with PAN 'ACAPA0374P' (distance: 304)
+2025-08-01 22:40:44,429 - src.extractor - INFO - Paired entity 'the Securities and Exchange Board' with PAN 'ACAPA0374P' (distance: 106)
+2025-08-01 22:40:44,429 - src.extractor - INFO - Paired entity 'Name' with PAN 'ACAPA0374P' (distance: 38)
+2025-08-01 22:40:44,429 - src.extractor - INFO - Paired entity 'PAN' with PAN 'ACAPA0374P' (distance: 32)
+2025-08-01 22:40:44,429 - src.extractor - INFO - Paired entity 'Mohan Lal          AKXPM8796N' with PAN 'AKXPM8796N' (distance: 10)
+2025-08-01 22:40:44,430 - src.extractor - INFO - Paired entity 'Kumar Raghavan  ABMPR9770M  
+' with PAN 'ABMPR9770M' (distance: 6)
+2025-08-01 22:40:44,430 - src.extractor - INFO - Paired entity 'Noticee' with PAN 'ABMPR9770M' (distance: 110)
+2025-08-01 22:40:44,430 - src.extractor - INFO - Paired entity 'Noticees' with PAN 'ABMPR9770M' (distance: 150)
+2025-08-01 22:40:44,430 - src.extractor - INFO - Paired entity 'Decipher Labs Ltd.' with PAN 'ABMPR9770M' (distance: 187)
+2025-08-01 22:40:44,430 - src.extractor - INFO - Paired entity 'Decipher Labs Limited' with PAN 'ABMPR9770M' (distance: 226)
+2025-08-01 22:40:44,430 - src.extractor - INFO - Paired entity 'Bombay Stock Exchange Limited' with PAN 'ABMPR9770M' (distance: 348)
+2025-08-01 22:40:44,430 - src.extractor - INFO - Paired entity 'provid ing' with PAN 'ABMPR9770M' (distance: 535)
+2025-08-01 22:40:44,431 - src.extractor - INFO - Paired entity 'Securities and Exchange Board of India' with PAN 'ABMPR9770M' (distance: 632)
+2025-08-01 22:40:44,431 - src.extractor - INFO - Paired entity 'the Securities and Exchange Board' with PAN 'ABMPR9770M' (distance: 790)
+2025-08-01 22:40:44,431 - src.extractor - INFO - Paired entity 'N' with PAN 'ABMPR9770M' (distance: 1236)
+2025-08-01 22:40:44,431 - src.extractor - INFO - Paired entity 'Janakiram Ajjarapu' with PAN 'ABMPR9770M' (distance: 1426)
+2025-08-01 22:40:44,431 - src.extractor - INFO - Paired entity 'Company' with PAN 'ABMPR9770M' (distance: 1452)
+2025-08-01 22:40:44,431 - src.extractor - INFO - Paired entity 'ICP Solutions Pvt Ltd' with PAN 'ABMPR9770M' (distance: 1648)
+2025-08-01 22:40:44,432 - src.extractor - INFO - Paired entity 'Company' with PAN 'ABMPR9770M' (distance: 1802)
+2025-08-01 22:40:44,432 - src.extractor - INFO - Paired entity 'Decipher Software Solutions LLC' with PAN 'ABMPR9770M' (distance: 1850)
+2025-08-01 22:40:44,432 - src.utils - INFO - Found 4 PAN numbers: ['ABMPR9770M', 'AKXPM8796N', 'AAACC8372L', 'ACAPA0374P']
+2025-08-01 22:40:44,433 - src.utils - INFO - Found 0 CIN numbers: []
+2025-08-01 22:40:44,433 - src.utils - INFO - Found 11 addresses
+2025-08-01 22:40:44,433 - src.utils - INFO - Found 21 entity-PAN pairs
+2025-08-01 22:40:44,599 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:40:44,701 - src.utils - INFO - Using paired PAN ACAPA0374P for entity QJA
+2025-08-01 22:40:44,810 - src.utils - INFO - Using paired PAN ACAPA0374P for entity the Securities and Exchange Board
+2025-08-01 22:40:44,810 - src.utils - INFO - Matched address to entity the Securities and Exchange Board
+2025-08-01 22:40:44,923 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Name
+2025-08-01 22:40:45,027 - src.utils - INFO - Using paired PAN ACAPA0374P for entity PAN
+2025-08-01 22:40:45,210 - src.utils - INFO - Using paired PAN AKXPM8796N for entity Mohan Lal          AKXPM8796N
+2025-08-01 22:40:45,211 - src.utils - INFO - Matched address to entity Mohan Lal          AKXPM8796N
+2025-08-01 22:40:45,419 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Kumar Raghavan  ABMPR9770M  
+
+2025-08-01 22:40:45,538 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:40:45,539 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:40:45,658 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:40:45,658 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:40:45,783 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:40:45,931 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Decipher Labs Limited
+2025-08-01 22:40:45,931 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Bombay Stock Exchange Limited
+2025-08-01 22:40:45,932 - src.utils - INFO - Using paired PAN ABMPR9770M for entity provid ing
+2025-08-01 22:40:45,932 - src.utils - INFO - Matched address to entity provid ing
+2025-08-01 22:40:45,932 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Securities and Exchange Board of India
+2025-08-01 22:40:45,932 - src.utils - INFO - Matched address to entity Securities and Exchange Board of India
+2025-08-01 22:40:45,932 - src.utils - INFO - Using paired PAN ACAPA0374P for entity the Securities and Exchange Board
+2025-08-01 22:40:45,933 - src.utils - INFO - Matched address to entity the Securities and Exchange Board
+2025-08-01 22:40:45,933 - src.utils - INFO - Using paired PAN ABMPR9770M for entity N
+2025-08-01 22:40:45,933 - src.utils - INFO - Matched address to entity N
+2025-08-01 22:40:45,933 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Janakiram Ajjarapu
+2025-08-01 22:40:46,048 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:46,153 - src.utils - INFO - Using paired PAN ABMPR9770M for entity ICP Solutions Pvt Ltd
+2025-08-01 22:40:46,153 - src.utils - INFO - Matched address to entity ICP Solutions Pvt Ltd
+2025-08-01 22:40:46,254 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:46,354 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Decipher Software Solutions LLC
+2025-08-01 22:40:46,464 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:40:46,570 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:47,028 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:47,162 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:47,491 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:48,255 - src.utils - INFO - Matched PAN ABMPR9770M to entity Mohan Lal (proximity match)
+2025-08-01 22:40:48,255 - src.utils - INFO - Matched address to entity Mohan Lal
+2025-08-01 22:40:49,328 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:40:49,757 - src.utils - INFO - Matched address to entity The Financial Results
+2025-08-01 22:40:50,142 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:51,955 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:40:52,179 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:52,393 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:52,815 - src.utils - INFO - Matched PAN ABMPR9770M to entity Decipher Labs Ltd (proximity match)
+2025-08-01 22:40:52,816 - src.utils - INFO - Matched address to entity Decipher Labs Ltd
+2025-08-01 22:40:52,817 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:52,817 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Janakiram Ajjarapu
+2025-08-01 22:40:52,818 - src.utils - INFO - Matched PAN ABMPR9770M to entity Mohan Lal (proximity match)
+2025-08-01 22:40:52,818 - src.utils - INFO - Matched address to entity Mohan Lal
+2025-08-01 22:40:52,819 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:52,820 - src.utils - INFO - Matched address to entity the Board of Directors
+2025-08-01 22:40:52,820 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:52,980 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:53,146 - src.utils - INFO - Matched PAN ABMPR9770M to entity Order (proximity match)
+2025-08-01 22:40:53,306 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:40:53,613 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:53,770 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Janakiram Ajjarapu
+2025-08-01 22:40:54,089 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:54,258 - src.utils - INFO - Matched PAN ABMPR9770M to entity Janakiram Ajjara (proximity match)
+2025-08-01 22:40:54,435 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:54,755 - src.utils - INFO - Matched PAN ABMPR9770M to entity Ajjarapu (proximity match)
+2025-08-01 22:40:54,905 - src.utils - INFO - Matched address to entity OnDemand Agility Solutions Inc
+2025-08-01 22:40:55,057 - src.utils - INFO - Matched address to entity Ar tificial Intelligence, Virtual Reality and Augmented Reality Space
+2025-08-01 22:40:55,213 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:55,367 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:55,531 - src.utils - INFO - Matched address to entity OnDemand Agility Solutions Inc
+2025-08-01 22:40:55,888 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:56,066 - src.utils - INFO - Using paired PAN ACAPA0374P for entity PAN
+2025-08-01 22:40:56,428 - src.utils - INFO - Matched PAN ABMPR9770M to entity Order (proximity match)
+2025-08-01 22:40:56,608 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:40:56,828 - src.utils - INFO - Matched PAN ABMPR9770M to entity Ajjarapu (proximity match)
+2025-08-01 22:40:57,063 - src.utils - INFO - Matched PAN ABMPR9770M to entity Mohan Lal (proximity match)
+2025-08-01 22:40:57,064 - src.utils - INFO - Matched address to entity Mohan Lal
+2025-08-01 22:40:57,299 - src.utils - INFO - Matched address to entity Mohan Lal’s
+2025-08-01 22:40:57,512 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:40:57,840 - src.utils - INFO - Matched PAN ABMPR9770M to entity Sushant Mohan Lal (proximity match)
+2025-08-01 22:40:57,841 - src.utils - INFO - Matched address to entity Sushant Mohan Lal
+2025-08-01 22:40:58,037 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Janakiram Ajjarapu
+2025-08-01 22:40:58,245 - src.utils - INFO - Matched PAN ABMPR9770M to entity Sushant Mohan Lal (proximity match)
+2025-08-01 22:40:58,246 - src.utils - INFO - Matched address to entity Sushant Mohan Lal
+2025-08-01 22:40:58,418 - src.utils - INFO - Matched address to entity the Whole Time 
+Directors
+2025-08-01 22:40:58,597 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:58,598 - src.utils - INFO - Matched PAN ABMPR9770M to entity Ajjarapu (proximity match)
+2025-08-01 22:40:58,598 - src.utils - INFO - Matched PAN ABMPR9770M to entity Sushant Mohan Lal (proximity match)
+2025-08-01 22:40:58,599 - src.utils - INFO - Matched address to entity Sushant Mohan Lal
+2025-08-01 22:40:58,599 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:58,600 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Janakiram Ajjarapu
+2025-08-01 22:40:58,600 - src.utils - INFO - Matched PAN ABMPR9770M to entity Sushant Mohan Lal (proximity match)
+2025-08-01 22:40:58,601 - src.utils - INFO - Matched address to entity Sushant Mohan Lal
+2025-08-01 22:40:58,601 - src.utils - INFO - Matched address to entity SEBI - Investor Protection and Education Fund
+2025-08-01 22:40:58,602 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:40:58,603 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:40:58,603 - src.utils - INFO - Matched PAN ABMPR9770M to entity Mohan Lal (proximity match)
+2025-08-01 22:40:58,604 - src.utils - INFO - Matched address to entity Mohan Lal
+2025-08-01 22:40:58,604 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:40:58,605 - src.utils - INFO - Matched PAN ABMPR9770M to entity Mohan Lal (proximity match)
+2025-08-01 22:40:58,606 - src.utils - INFO - Matched address to entity Mohan Lal
+2025-08-01 22:40:58,606 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:40:58,606 - src.utils - INFO - Matched PAN ABMPR9770M to entity Mohan Lal (proximity match)
+2025-08-01 22:40:58,607 - src.utils - INFO - Matched address to entity Mohan Lal
+2025-08-01 22:40:58,607 - src.utils - INFO - Matched address to entity Choice Equity Broking Pvt. Ltd.
+2025-08-01 22:40:58,608 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Janakiram Ajjarapu
+2025-08-01 22:40:58,609 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Janakiram Ajjarapu
+2025-08-01 22:40:59,164 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Janakiram Ajjarapu
+2025-08-01 22:40:59,336 - src.utils - INFO - Matched PAN ABMPR9770M to entity Ajjarapu (proximity match)
+2025-08-01 22:40:59,559 - src.utils - INFO - Matched PAN ABMPR9770M to entity Mohan Lal (proximity match)
+2025-08-01 22:40:59,560 - src.utils - INFO - Matched address to entity Mohan Lal
+2025-08-01 22:41:00,292 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:00,293 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:00,789 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Janakiram Ajjarapu
+2025-08-01 22:41:01,042 - src.utils - INFO - Matched address to entity Sushant Mohan Lal  contrave
+2025-08-01 22:41:01,317 - src.utils - INFO - Matched PAN ABMPR9770M to entity Kumar Raghavan (proximity match)
+2025-08-01 22:41:01,555 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:01,782 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:01,782 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:02,031 - src.utils - INFO - Matched address to entity the Investigation Report
+2025-08-01 22:41:02,212 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:02,212 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:02,564 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:02,565 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:02,928 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:02,929 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:02,929 - src.utils - INFO - Matched PAN ABMPR9770M to entity Mohan Lal (proximity match)
+2025-08-01 22:41:02,930 - src.utils - INFO - Matched address to entity Mohan Lal
+2025-08-01 22:41:02,930 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:02,931 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:02,931 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:02,932 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:02,932 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:02,933 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:02,933 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:02,934 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:02,934 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:02,934 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:02,935 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:02,935 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:02,936 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:02,936 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:02,936 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:03,109 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:03,110 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:03,285 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:03,285 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:03,619 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:03,619 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:03,963 - src.utils - INFO - Matched address to entity the Investigation 
+Report
+2025-08-01 22:41:04,310 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:04,484 - src.utils - INFO - Matched address to entity para 7.3
+2025-08-01 22:41:04,832 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:05,177 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:05,177 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:05,351 - src.utils - INFO - Matched address to entity OnDemand Agility Solutions Inc  
+
+2025-08-01 22:41:05,715 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:05,715 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:41:05,925 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:05,926 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:06,126 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Decipher Software Solutions LLC
+2025-08-01 22:41:06,658 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:06,845 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:07,430 - src.utils - INFO - Matched address to entity the Target Company
+2025-08-01 22:41:07,607 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:07,607 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:07,790 - src.utils - INFO - Matched address to entity the OnDemand Agility Solutions Inc .
+2025-08-01 22:41:08,283 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:08,464 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:08,465 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:08,828 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:09,187 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:09,521 - src.utils - INFO - Matched address to entity Agility Solutions Inc .
+2025-08-01 22:41:09,685 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:09,686 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:10,358 - src.utils - INFO - Matched PAN ABMPR9770M to entity Sushant Mo (proximity match)
+2025-08-01 22:41:10,359 - src.utils - INFO - Matched address to entity Sushant Mo
+2025-08-01 22:41:10,542 - src.utils - INFO - Matched PAN ABMPR9770M to entity Lal (proximity match)
+2025-08-01 22:41:10,543 - src.utils - INFO - Matched address to entity Lal
+2025-08-01 22:41:10,730 - src.utils - INFO - Matched PAN ABMPR9770M to entity Compa (proximity match)
+2025-08-01 22:41:10,905 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:10,905 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:11,075 - src.utils - INFO - Matched address to entity the Board Meetings
+2025-08-01 22:41:11,229 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:11,229 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:11,383 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:11,384 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:11,539 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:11,540 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:11,540 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:11,541 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:11,542 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:11,542 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:11,543 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:11,891 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:11,891 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:12,199 - src.utils - INFO - Matched PAN ABMPR9770M to entity Noti (proximity match)
+2025-08-01 22:41:12,200 - src.utils - INFO - Matched address to entity Noti
+2025-08-01 22:41:12,375 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:12,375 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:41:12,563 - src.utils - INFO - Matched address to entity The Board of Directors
+2025-08-01 22:41:12,731 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:12,876 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:13,012 - src.utils - INFO - Matched address to entity the Artificial Intelligence
+2025-08-01 22:41:13,443 - src.utils - INFO - Matched address to entity Feasibility and Viability
+2025-08-01 22:41:13,731 - src.utils - INFO - Matched address to entity Disclosure 
+Requirements) Regulations
+2025-08-01 22:41:13,873 - src.utils - INFO - Matched address to entity Noticee no.4
+2025-08-01 22:41:14,017 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:14,018 - src.utils - INFO - Matched address to entity Branch 
+Office
+2025-08-01 22:41:14,019 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:14,170 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:14,170 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:14,458 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:14,600 - src.utils - INFO - Matched address to entity Indore
+2025-08-01 22:41:14,752 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:14,900 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:15,326 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:15,326 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:15,477 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:15,477 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:41:15,650 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:15,650 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:41:15,828 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:16,001 - src.utils - INFO - Matched address to entity Board of 
+Directors
+2025-08-01 22:41:16,181 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:16,182 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:16,359 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:16,527 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:16,528 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:16,694 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:16,694 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:16,865 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:16,866 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:17,047 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:17,294 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:17,536 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:17,537 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:41:17,829 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:17,830 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:41:18,007 - src.utils - INFO - Matched address to entity the Management of the company
+2025-08-01 22:41:18,175 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:18,176 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:41:18,357 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:18,526 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:18,526 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:41:18,707 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:18,873 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:18,873 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:19,040 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:19,041 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:41:19,201 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:19,202 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:19,354 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:19,516 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:19,517 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:41:19,708 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:19,709 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:19,931 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:19,931 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:41:20,849 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:20,850 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:41:21,008 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:21,008 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:21,172 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:21,352 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:21,352 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:21,525 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:21,525 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:21,694 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:21,694 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:21,876 - src.utils - INFO - Using paired PAN ABMPR9770M for entity N
+2025-08-01 22:41:21,876 - src.utils - INFO - Matched address to entity N
+2025-08-01 22:41:22,059 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:22,059 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:22,221 - src.utils - INFO - Matched address to entity the 
+ 
+Order
+2025-08-01 22:41:22,382 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:22,541 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:22,542 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:22,705 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:22,706 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:22,880 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:22,880 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:23,054 - src.utils - INFO - Matched address to entity Sushant Mohan 
+Lal
+2025-08-01 22:41:23,228 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:23,228 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:23,408 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:23,409 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:23,584 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:23,584 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:23,757 - src.utils - INFO - Matched PAN ABMPR9770M to entity Comp (proximity match)
+2025-08-01 22:41:23,918 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:23,919 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:24,300 - src.utils - INFO - Matched address to entity the Board of Directors
+2025-08-01 22:41:24,490 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:24,490 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:24,866 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:25,042 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:25,043 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:25,214 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:25,537 - src.utils - INFO - Matched address to entity the Board of Directors
+2025-08-01 22:41:25,538 - src.utils - INFO - Matched address to entity the Board of Directors
+2025-08-01 22:41:25,539 - src.utils - INFO - Matched address to entity Board of Directors
+2025-08-01 22:41:25,539 - src.utils - INFO - Matched address to entity the Board of Directors
+2025-08-01 22:41:25,540 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:25,541 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:25,541 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:25,542 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:25,687 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:25,688 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:25,842 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:25,997 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:25,997 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:26,151 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:26,439 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:26,440 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:26,755 - src.utils - INFO - Matched address to entity M/s Hiremat h & Co
+2025-08-01 22:41:26,963 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:26,964 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:27,528 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:27,529 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:27,903 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:27,904 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:27,906 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:27,906 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:27,907 - src.utils - INFO - Matched address to entity the TransSys Solutions Group of C
+2025-08-01 22:41:27,908 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:27,909 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:27,911 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Decipher Labs Limited
+2025-08-01 22:41:28,096 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:28,097 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:28,276 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:28,276 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:28,277 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:28,281 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:28,282 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:28,283 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:28,284 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:28,603 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:28,604 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:29,260 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:29,725 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:29,725 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:29,726 - src.utils - INFO - Matched address to entity Banks, Insurance 
+Companies and Radio Control and Sports Content Companies
+2025-08-01 22:41:29,727 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:29,728 - src.utils - INFO - Matched address to entity the US Based  
+Company
+2025-08-01 22:41:29,877 - src.utils - INFO - Matched address to entity the US Company
+2025-08-01 22:41:30,089 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:30,090 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:30,253 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:30,253 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:30,412 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:30,413 - src.utils - INFO - Matched PAN ABMPR9770M to entity Order (proximity match)
+2025-08-01 22:41:30,414 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:30,586 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:30,906 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:30,906 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:31,062 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:31,067 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:31,232 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:31,399 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:31,558 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:31,891 - src.utils - INFO - Matched address to entity Feasibility and Viability
+2025-08-01 22:41:32,044 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:32,209 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:32,523 - src.utils - INFO - Matched address to entity the management/ board
+2025-08-01 22:41:32,673 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:32,991 - src.utils - INFO - Matched address to entity Feasibility and Viability
+2025-08-01 22:41:33,300 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:33,453 - src.utils - INFO - Matched address to entity the LODR Regulations
+2025-08-01 22:41:33,598 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:33,744 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:33,745 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:33,746 - src.utils - INFO - Matched address to entity the LODR Regulations
+2025-08-01 22:41:33,746 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:33,746 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:33,747 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:33,747 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:33,747 - src.utils - INFO - Matched address to entity the LODR Regulations
+2025-08-01 22:41:33,748 - src.utils - INFO - Matched PAN ABMPR9770M to entity Order (proximity match)
+2025-08-01 22:41:33,748 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:33,748 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:33,748 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:33,749 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:33,749 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:33,749 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:33,749 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:33,749 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:34,099 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:34,100 - src.utils - INFO - Matched PAN ABMPR9770M to entity Order (proximity match)
+2025-08-01 22:41:34,100 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:34,100 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:34,101 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:34,101 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:34,101 - src.utils - INFO - Matched address to entity the Black’s Law Dictionary
+2025-08-01 22:41:34,102 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:34,102 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:34,103 - src.utils - INFO - Matched address to entity Securities Appellate Tribunal
+2025-08-01 22:41:34,103 - src.utils - INFO - Matched PAN ABMPR9770M to entity Order (proximity match)
+2025-08-01 22:41:34,104 - src.utils - INFO - Matched address to entity Securities Appellate Tribunal
+2025-08-01 22:41:34,105 - src.utils - INFO - Matched address to entity the Securities and Exchange 
+Board of India (Prohibition of Fraudulent and
+2025-08-01 22:41:34,105 - src.utils - INFO - Matched address to entity Unfair Tra de Practices
+2025-08-01 22:41:34,106 - src.utils - INFO - Matched address to entity Securities 
+Market) Regulations
+2025-08-01 22:41:34,269 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:34,429 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:34,429 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:34,430 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:34,430 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:34,430 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:34,594 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:34,596 - src.utils - INFO - Matched address to entity al l
+2025-08-01 22:41:34,596 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:34,596 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:34,597 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:34,597 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:34,773 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:34,944 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:34,944 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:41:35,134 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:35,310 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:35,647 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:35,840 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:36,262 - src.utils - INFO - Matched address to entity the Company  
+Date  Opening Price  Closing Price
+2025-08-01 22:41:36,683 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:36,867 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:37,041 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:37,204 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:37,205 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:41:37,396 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:37,576 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:37,734 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:37,886 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:38,034 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:38,172 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:38,468 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:38,468 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:38,626 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:38,626 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:38,790 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:38,791 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:39,108 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:39,109 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:39,109 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:39,110 - src.utils - INFO - Matched PAN ABMPR9770M to entity Comp (proximity match)
+2025-08-01 22:41:39,110 - src.utils - INFO - Matched PAN ABMPR9770M to entity BSE (proximity match)
+2025-08-01 22:41:39,110 - src.utils - INFO - Matched address to entity BSE
+2025-08-01 22:41:39,111 - src.utils - INFO - Matched address to entity The Annual Report
+2025-08-01 22:41:39,272 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:39,430 - src.utils - INFO - Matched address to entity Artifici al Intelligence
+2025-08-01 22:41:39,430 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:39,431 - src.utils - INFO - Matched address to entity the 
+ 
+Order
+2025-08-01 22:41:39,431 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:39,647 - src.utils - INFO - Matched PAN ABMPR9770M to entity Co (proximity match)
+2025-08-01 22:41:39,648 - src.utils - INFO - Matched address to entity Co
+2025-08-01 22:41:39,648 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:39,650 - src.utils - INFO - Matched address to entity Rakhi Trading Pvt
+2025-08-01 22:41:39,651 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:39,651 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:39,652 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:39,652 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:39,652 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:39,653 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:39,653 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:39,654 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:39,654 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:39,654 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:39,655 - src.utils - INFO - Matched address to entity the LODR Regulations
+2025-08-01 22:41:39,656 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:39,656 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:39,656 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:39,657 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:39,657 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:39,658 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:39,817 - src.utils - INFO - Matched address to entity the sc rip of the 
+Company  and
+2025-08-01 22:41:39,971 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:39,972 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:39,972 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:39,973 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:39,973 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:39,973 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:39,974 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:40,137 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:40,138 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:40,451 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:40,600 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:41,025 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:41,163 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:41,163 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:41,163 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:41,164 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:41,164 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:41,164 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:41,165 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:41,165 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:41,166 - src.utils - INFO - Matched address to entity Facebook and Tata Group
+2025-08-01 22:41:41,166 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:41,167 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:41,167 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:41,167 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:41,168 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:41,168 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:41,169 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:41,169 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:41,170 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:41,170 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:41,338 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:41,338 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:41,494 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:41,658 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:41,824 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:41,824 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:41,988 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:41,989 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:42,164 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:42,322 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticees
+2025-08-01 22:41:42,322 - src.utils - INFO - Matched address to entity Noticees
+2025-08-01 22:41:42,480 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:42,642 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:42,643 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:42,644 - src.utils - INFO - Matched address to entity OnDemand Agility 
+Solutions Inc .
+2025-08-01 22:41:42,644 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:42,644 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:42,645 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:42,645 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:42,645 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:42,645 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:42,646 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:42,646 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:42,646 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Company
+2025-08-01 22:41:42,647 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:42,647 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:42,647 - src.utils - INFO - Using paired PAN ACAPA0374P for entity Decipher Labs Ltd.
+2025-08-01 22:41:42,648 - src.utils - INFO - Using paired PAN ABMPR9770M for entity Noticee
+2025-08-01 22:41:42,648 - src.utils - INFO - Matched address to entity Noticee
+2025-08-01 22:41:42,810 - src.utils - INFO - Matched address to entity Noticee no.1
+2025-08-01 22:41:45,034 - src.utils - INFO - Saved 556 entities from https://www.sebi.gov.in/enforcement/orders/jul-2025/order-in-the-matter-of-decipher-labs-limited_95776.html
+2025-08-01 22:41:45,148 - src.extractor - INFO - Downloading PDF from https://www.sebi.gov.in/enforcement/orders/jul-2025/order-in-the-matter-of-patels-airtemp-india-limited_95774.html
+2025-08-01 22:41:45,990 - src.extractor - INFO - Found PDF URL in iframe: https://www.sebi.gov.in/sebi_data/attachdocs/aug-2025/1754058002716_1.pdf
+2025-08-01 22:41:59,632 - src.extractor - INFO - Found 9 PAN numbers in text
+2025-08-01 22:41:59,633 - src.extractor - INFO - Paired entity 'M/s Patels Airtemp' with PAN 'ACNPP1914D' (distance: 592)
+2025-08-01 22:41:59,635 - src.extractor - INFO - Paired entity 'QJA' with PAN 'ACNPP1914D' (distance: 486)
+2025-08-01 22:41:59,635 - src.extractor - INFO - Paired entity 'SECURITIES AND EXCHANGE BOARD OF INDIA  
+ORDER  
+' with PAN 'ACNPP1914D' (distance: 420)
+2025-08-01 22:41:59,636 - src.extractor - INFO - Paired entity 'Notice' with PAN 'ACNPP1914D' (distance: 365)
+2025-08-01 22:41:59,636 - src.extractor - INFO - Paired entity 'the Securities and Exchange Board' with PAN 'ACNPP1914D' (distance: 232)
+2025-08-01 22:41:59,637 - src.extractor - INFO - Paired entity 'the Securities and Exchange Board of India' with PAN 'ACNPP1914D' (distance: 152)
+2025-08-01 22:41:59,637 - src.extractor - INFO - Paired entity 'Name' with PAN 'ACNPP1914D' (distance: 43)
+2025-08-01 22:41:59,637 - src.extractor - INFO - Paired entity 'PAN' with PAN 'ACNPP1914D' (distance: 38)
+2025-08-01 22:41:59,637 - src.extractor - INFO - Paired entity 'HUF' with PAN 'AADHP3766P' (distance: 8)
+2025-08-01 22:41:59,638 - src.extractor - INFO - Paired entity 'HUF' with PAN 'AADHP4322D' (distance: 8)
+2025-08-01 22:41:59,638 - src.extractor - INFO - Paired entity 'Sanjivkumar Narayanbhai Patel' with PAN 'ADMFS5686D' (distance: 24)
+2025-08-01 22:41:59,638 - src.extractor - INFO - Paired entity 'HUF' with PAN 'AAYHS3991Q' (distance: 8)
+2025-08-01 22:41:59,639 - src.extractor - INFO - Paired entity 'AAYHS3991Q  
+' with PAN 'AAYHS3991Q' (distance: 2)
+2025-08-01 22:41:59,639 - src.extractor - INFO - Paired entity 'Prakashbhai Patel' with PAN 'ABHPP4353R' (distance: 16)
+2025-08-01 22:41:59,639 - src.extractor - INFO - Paired entity 'Sanjiv Patel' with PAN 'ALZPP8741M' (distance: 13)
+2025-08-01 22:41:59,640 - src.extractor - INFO - Paired entity 'Shivang Prakashchandra Patel' with PAN 'CFSPP3624L' (distance: 21)
+2025-08-01 22:41:59,641 - src.extractor - INFO - Paired entity 'Therm Flow Engineers Private Limited' with PAN 'AABCT7264M' (distance: 25)
+2025-08-01 22:41:59,641 - src.extractor - INFO - Paired entity 'Noticee' with PAN 'AABCT7264M' (distance: 124)
+2025-08-01 22:41:59,642 - src.extractor - INFO - Paired entity 'Noticees' with PAN 'AABCT7264M' (distance: 165)
+2025-08-01 22:41:59,642 - src.extractor - INFO - Paired entity 'M/s Patels Airtemp' with PAN 'AABCT7264M' (distance: 202)
+2025-08-01 22:41:59,643 - src.extractor - INFO - Paired entity 'Background' with PAN 'AABCT7264M' (distance: 238)
+2025-08-01 22:41:59,644 - src.extractor - INFO - Paired entity 'Patels Airtemp' with PAN 'AABCT7264M' (distance: 259)
+2025-08-01 22:41:59,644 - src.extractor - INFO - Paired entity 'the Bombay Stock Exchange Limited' with PAN 'AABCT7264M' (distance: 400)
+2025-08-01 22:41:59,644 - src.extractor - INFO - Paired entity 'Exchange Board of India' with PAN 'AABCT7264M' (distance: 466)
+2025-08-01 22:41:59,645 - src.extractor - INFO - Paired entity 'Devidas' with PAN 'AABCT7264M' (distance: 556)
+2025-08-01 22:41:59,645 - src.extractor - INFO - Paired entity 'Narumalani' with PAN 'AABCT7264M' (distance: 577)
+2025-08-01 22:41:59,645 - src.extractor - INFO - Paired entity 'Narayanbhai Gangaram  Patel' with PAN 'AABCT7264M' (distance: 828)
+2025-08-01 22:41:59,646 - src.extractor - INFO - Paired entity 'Sanjiv kumar' with PAN 'AABCT7264M' (distance: 859)
+2025-08-01 22:41:59,647 - src.extractor - INFO - Paired entity 'Narayanbhai Patel' with PAN 'AABCT7264M' (distance: 876)
+2025-08-01 22:41:59,647 - src.extractor - INFO - Paired entity 'Shivang 
+Prakashchandra Patel' with PAN 'AABCT7264M' (distance: 904)
+2025-08-01 22:41:59,648 - src.extractor - INFO - Paired entity 'Therm Flow 
+ 
+Order' with PAN 'AABCT7264M' (distance: 1160)
+2025-08-01 22:41:59,649 - src.extractor - INFO - Paired entity 'M/s Patels Airtemp' with PAN 'AABCT7264M' (distance: 1192)
+2025-08-01 22:41:59,650 - src.extractor - INFO - Paired entity 'National Company Law Tribunal' with PAN 'AABCT7264M' (distance: 1546)
+2025-08-01 22:41:59,651 - src.extractor - INFO - Paired entity 'Ahmedabad' with PAN 'AABCT7264M' (distance: 1576)
+2025-08-01 22:41:59,652 - src.extractor - INFO - Paired entity 'Order' with PAN 'AABCT7264M' (distance: 1592)
+2025-08-01 22:41:59,653 - src.extractor - INFO - Paired entity 'Bhavesh D Narumalani' with PAN 'AABCT7264M' (distance: 1646)
+2025-08-01 22:41:59,653 - src.extractor - INFO - Paired entity 'inter alia' with PAN 'AABCT7264M' (distance: 1682)
+2025-08-01 22:41:59,654 - src.extractor - INFO - Paired entity 'TFEPL' with PAN 'AABCT7264M' (distance: 1726)
+2025-08-01 22:41:59,654 - src.extractor - INFO - Paired entity 'Narendra' with PAN 'AABCT7264M' (distance: 1741)
+2025-08-01 22:41:59,655 - src.extractor - INFO - Paired entity 'Gopalbhai  Patel' with PAN 'AABCT7264M' (distance: 1759)
+2025-08-01 22:41:59,655 - src.extractor - INFO - Paired entity 'TFEPL' with PAN 'AABCT7264M' (distance: 1812)
+2025-08-01 22:41:59,655 - src.extractor - INFO - Paired entity 'NCLT' with PAN 'AABCT7264M' (distance: 1842)
+2025-08-01 22:41:59,656 - src.extractor - INFO - Paired entity 'Hon’b le National Company Law Appellate Tribunal' with PAN 'AABCT7264M' (distance: 1902)
+2025-08-01 22:41:59,656 - src.extractor - INFO - Paired entity 'NCLAT' with PAN 'AABCT7264M' (distance: 1930)
+2025-08-01 22:41:59,657 - src.extractor - INFO - Paired entity 'Supreme 
+Court' with PAN 'AABCT7264M' (distance: 1954)
+2025-08-01 22:41:59,658 - src.extractor - INFO - Paired entity 'NCLT' with PAN 'AABCT7264M' (distance: 1975)
+2025-08-01 22:41:59,661 - src.utils - INFO - Found 9 PAN numbers: ['ALZPP8741M', 'AABCT7264M', 'AADHP4322D', 'AAYHS3991Q', 'ACNPP1914D', 'ADMFS5686D', 'ABHPP4353R', 'AADHP3766P', 'CFSPP3624L']
+2025-08-01 22:41:59,662 - src.utils - INFO - Found 0 CIN numbers: []
+2025-08-01 22:41:59,662 - src.utils - INFO - Found 3 addresses
+2025-08-01 22:41:59,662 - src.utils - INFO - Found 46 entity-PAN pairs
+2025-08-01 22:41:59,807 - src.utils - INFO - Using paired PAN ACNPP1914D for entity M/s Patels Airtemp
+2025-08-01 22:41:59,967 - src.utils - INFO - Using paired PAN ACNPP1914D for entity QJA
+2025-08-01 22:42:00,143 - src.utils - INFO - Using paired PAN ACNPP1914D for entity SECURITIES AND EXCHANGE BOARD OF INDIA  
+ORDER  
+
+2025-08-01 22:42:00,144 - src.utils - INFO - Matched address to entity SECURITIES AND EXCHANGE BOARD OF INDIA  
+ORDER  
+
+2025-08-01 22:42:00,317 - src.utils - INFO - Using paired PAN ACNPP1914D for entity Notice
+2025-08-01 22:42:00,529 - src.utils - INFO - Using paired PAN ACNPP1914D for entity the Securities and Exchange Board
+2025-08-01 22:42:00,530 - src.utils - INFO - Matched address to entity the Securities and Exchange Board
+2025-08-01 22:42:00,811 - src.utils - INFO - Using paired PAN ACNPP1914D for entity the Securities and Exchange Board of India
+2025-08-01 22:42:00,812 - src.utils - INFO - Matched address to entity the Securities and Exchange Board of India
+2025-08-01 22:42:01,157 - src.utils - INFO - Using paired PAN ACNPP1914D for entity Name
+2025-08-01 22:42:01,551 - src.utils - INFO - Using paired PAN ACNPP1914D for entity PAN
+2025-08-01 22:42:01,952 - src.utils - INFO - Using paired PAN AADHP3766P for entity HUF
+2025-08-01 22:42:02,357 - src.utils - INFO - Using paired PAN AADHP3766P for entity HUF
+2025-08-01 22:42:02,734 - src.utils - INFO - Using paired PAN ADMFS5686D for entity Sanjivkumar Narayanbhai Patel
+2025-08-01 22:42:02,735 - src.utils - INFO - Matched address to entity Sanjivkumar Narayanbhai Patel
+2025-08-01 22:42:03,088 - src.utils - INFO - Using paired PAN AADHP3766P for entity HUF
+2025-08-01 22:42:03,463 - src.utils - INFO - Using paired PAN AAYHS3991Q for entity AAYHS3991Q  
+
+2025-08-01 22:42:03,899 - src.utils - INFO - Using paired PAN ABHPP4353R for entity Prakashbhai Patel
+2025-08-01 22:42:03,900 - src.utils - INFO - Matched address to entity Prakashbhai Patel
+2025-08-01 22:42:04,448 - src.utils - INFO - Using paired PAN ALZPP8741M for entity Sanjiv Patel
+2025-08-01 22:42:04,449 - src.utils - INFO - Matched address to entity Sanjiv Patel
+2025-08-01 22:42:04,853 - src.utils - INFO - Using paired PAN CFSPP3624L for entity Shivang Prakashchandra Patel
+2025-08-01 22:42:04,854 - src.utils - INFO - Matched address to entity Shivang Prakashchandra Patel
+2025-08-01 22:42:05,284 - src.utils - INFO - Using paired PAN AABCT7264M for entity Therm Flow Engineers Private Limited
+2025-08-01 22:42:05,661 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticee
+2025-08-01 22:42:06,029 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:42:06,425 - src.utils - INFO - Using paired PAN ACNPP1914D for entity M/s Patels Airtemp
+2025-08-01 22:42:06,791 - src.utils - INFO - Using paired PAN AABCT7264M for entity Background
+2025-08-01 22:42:07,159 - src.utils - INFO - Using paired PAN AABCT7264M for entity Patels Airtemp
+2025-08-01 22:42:07,534 - src.utils - INFO - Using paired PAN AABCT7264M for entity the Bombay Stock Exchange Limited
+2025-08-01 22:42:07,534 - src.utils - INFO - Matched address to entity the Bombay Stock Exchange Limited
+2025-08-01 22:42:07,906 - src.utils - INFO - Using paired PAN AABCT7264M for entity Exchange Board of India
+2025-08-01 22:42:07,907 - src.utils - INFO - Matched address to entity Exchange Board of India
+2025-08-01 22:42:08,231 - src.utils - INFO - Using paired PAN AABCT7264M for entity Devidas
+2025-08-01 22:42:08,578 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narumalani
+2025-08-01 22:42:08,933 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narayanbhai Gangaram  Patel
+2025-08-01 22:42:08,933 - src.utils - INFO - Matched address to entity Narayanbhai Gangaram  Patel
+2025-08-01 22:42:09,288 - src.utils - INFO - Using paired PAN AABCT7264M for entity Sanjiv kumar
+2025-08-01 22:42:09,603 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narayanbhai Patel
+2025-08-01 22:42:09,604 - src.utils - INFO - Matched address to entity Narayanbhai Patel
+2025-08-01 22:42:09,950 - src.utils - INFO - Using paired PAN AABCT7264M for entity Shivang 
+Prakashchandra Patel
+2025-08-01 22:42:09,951 - src.utils - INFO - Matched address to entity Shivang 
+Prakashchandra Patel
+2025-08-01 22:42:10,270 - src.utils - INFO - Using paired PAN AABCT7264M for entity Therm Flow 
+ 
+Order
+2025-08-01 22:42:10,593 - src.utils - INFO - Using paired PAN ACNPP1914D for entity M/s Patels Airtemp
+2025-08-01 22:42:11,013 - src.utils - INFO - Using paired PAN AABCT7264M for entity National Company Law Tribunal
+2025-08-01 22:42:11,353 - src.utils - INFO - Using paired PAN AABCT7264M for entity Ahmedabad
+2025-08-01 22:42:11,354 - src.utils - INFO - Matched address to entity Ahmedabad
+2025-08-01 22:42:11,697 - src.utils - INFO - Using paired PAN AABCT7264M for entity Order
+2025-08-01 22:42:12,072 - src.utils - INFO - Using paired PAN AABCT7264M for entity Bhavesh D Narumalani
+2025-08-01 22:42:12,073 - src.utils - INFO - Matched address to entity Bhavesh D Narumalani
+2025-08-01 22:42:12,450 - src.utils - INFO - Using paired PAN AABCT7264M for entity inter alia
+2025-08-01 22:42:12,827 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:13,235 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narendra
+2025-08-01 22:42:13,235 - src.utils - INFO - Matched address to entity Narendra
+2025-08-01 22:42:13,674 - src.utils - INFO - Using paired PAN AABCT7264M for entity Gopalbhai  Patel
+2025-08-01 22:42:13,675 - src.utils - INFO - Matched address to entity Gopalbhai  Patel
+2025-08-01 22:42:14,065 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:14,381 - src.utils - INFO - Using paired PAN AABCT7264M for entity NCLT
+2025-08-01 22:42:14,382 - src.utils - INFO - Matched address to entity NCLT
+2025-08-01 22:42:14,698 - src.utils - INFO - Using paired PAN AABCT7264M for entity Hon’b le National Company Law Appellate Tribunal
+2025-08-01 22:42:15,021 - src.utils - INFO - Using paired PAN AABCT7264M for entity NCLAT
+2025-08-01 22:42:15,366 - src.utils - INFO - Using paired PAN AABCT7264M for entity Supreme 
+Court
+2025-08-01 22:42:15,733 - src.utils - INFO - Using paired PAN AABCT7264M for entity NCLT
+2025-08-01 22:42:15,734 - src.utils - INFO - Matched address to entity NCLT
+2025-08-01 22:42:16,046 - src.utils - INFO - Matched address to entity Narendra Gopalbhai Patel
+2025-08-01 22:42:16,355 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:16,659 - src.utils - INFO - Matched PAN ALZPP8741M to entity Narayanbhai Gangaram (proximity match)
+2025-08-01 22:42:16,974 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:16,975 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:17,283 - src.utils - INFO - Matched PAN ALZPP8741M to entity Prakash N (proximity match)
+2025-08-01 22:42:17,284 - src.utils - INFO - Matched address to entity Prakash N
+2025-08-01 22:42:17,597 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:17,597 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:17,910 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:18,210 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:18,541 - src.utils - INFO - Matched address to entity Narayanbhai G angaram
+2025-08-01 22:42:18,864 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:18,865 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:19,192 - src.utils - INFO - Matched PAN ALZPP8741M to entity Prakash N (proximity match)
+2025-08-01 22:42:19,193 - src.utils - INFO - Matched address to entity Prakash N
+2025-08-01 22:42:19,515 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:19,515 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:20,277 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narayanbhai Gangaram  Patel
+2025-08-01 22:42:20,278 - src.utils - INFO - Matched address to entity Narayanbhai Gangaram  Patel
+2025-08-01 22:42:20,666 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:20,666 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:21,039 - src.utils - INFO - Matched address to entity Narendrabhai Gopalbhai Patel  
+2025-08-01 22:42:21,452 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narumalani
+2025-08-01 22:42:21,795 - src.utils - INFO - Matched address to entity Narayanbhai Gangaram Patel
+2025-08-01 22:42:22,139 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:22,140 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:22,499 - src.utils - INFO - Matched address to entity Narendrabhai Gopalbhai Patel
+2025-08-01 22:42:22,862 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narumalani
+2025-08-01 22:42:23,248 - src.utils - INFO - Using paired PAN ACNPP1914D for entity M/s Patels Airtemp
+2025-08-01 22:42:23,591 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narayanbhai Patel
+2025-08-01 22:42:23,591 - src.utils - INFO - Matched address to entity Narayanbhai Patel
+2025-08-01 22:42:23,957 - src.utils - INFO - Using paired PAN CFSPP3624L for entity Shivang Prakashchandra Patel
+2025-08-01 22:42:23,958 - src.utils - INFO - Matched address to entity Shivang Prakashchandra Patel
+2025-08-01 22:42:24,281 - src.utils - INFO - Matched PAN ALZPP8741M to entity Narayanbhai G (proximity match)
+2025-08-01 22:42:24,281 - src.utils - INFO - Matched address to entity Narayanbhai G
+2025-08-01 22:42:24,682 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:24,682 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:25,091 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narendra
+2025-08-01 22:42:25,092 - src.utils - INFO - Matched address to entity Narendra
+2025-08-01 22:42:25,507 - src.utils - INFO - Using paired PAN AABCT7264M for entity Gopalbhai  Patel
+2025-08-01 22:42:25,508 - src.utils - INFO - Matched address to entity Gopalbhai  Patel
+2025-08-01 22:42:25,830 - src.utils - INFO - Matched address to entity Narendra Family
+2025-08-01 22:42:26,522 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narumalani
+2025-08-01 22:42:27,255 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narumalani
+2025-08-01 22:42:27,587 - src.utils - INFO - Matched PAN ALZPP8741M to entity Narayanbhai (proximity match)
+2025-08-01 22:42:27,954 - src.utils - INFO - Matched address to entity Narendra Family                                     
+2025-08-01 22:42:28,255 - src.utils - INFO - Matched PAN ALZPP8741M to entity Narum (proximity match)
+2025-08-01 22:42:28,527 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narayanbhai Gangaram  Patel
+2025-08-01 22:42:28,528 - src.utils - INFO - Matched address to entity Narayanbhai Gangaram  Patel
+2025-08-01 22:42:28,828 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:29,583 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:29,881 - src.utils - INFO - Matched address to entity Narendra Family
+2025-08-01 22:42:30,558 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:30,874 - src.utils - INFO - Matched address to entity Narayanbhai  Patel
+2025-08-01 22:42:31,174 - src.utils - INFO - Matched address to entity the Shiv Fintrade LLP
+2025-08-01 22:42:31,818 - src.utils - INFO - Using paired PAN AABCT7264M for entity Order
+2025-08-01 22:42:32,127 - src.utils - INFO - Using paired PAN ACNPP1914D for entity M/s Patels Airtemp
+2025-08-01 22:42:32,691 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:32,997 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:33,325 - src.utils - INFO - Matched PAN ALZPP8741M to entity Prakash N (proximity match)
+2025-08-01 22:42:33,326 - src.utils - INFO - Matched address to entity Prakash N
+2025-08-01 22:42:33,326 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:33,327 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:33,327 - src.utils - INFO - Matched address to entity Narayanbhai Gangaram Patel
+2025-08-01 22:42:33,328 - src.utils - INFO - Matched PAN ALZPP8741M to entity Prakash N (proximity match)
+2025-08-01 22:42:33,328 - src.utils - INFO - Matched address to entity Prakash N
+2025-08-01 22:42:33,328 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:33,329 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:33,329 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:33,329 - src.utils - INFO - Matched PAN ALZPP8741M to entity Prakash N (proximity match)
+2025-08-01 22:42:33,330 - src.utils - INFO - Matched address to entity Prakash N
+2025-08-01 22:42:33,330 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:33,330 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:33,331 - src.utils - INFO - Matched address to entity Narayanbhai Gangaram Patel
+2025-08-01 22:42:33,331 - src.utils - INFO - Matched PAN ALZPP8741M to entity Prakash (proximity match)
+2025-08-01 22:42:33,331 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:33,332 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:33,332 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:33,332 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:33,333 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:33,333 - src.utils - INFO - Using paired PAN ACNPP1914D for entity M/s Patels Airtemp
+2025-08-01 22:42:33,335 - src.utils - INFO - Matched address to entity Narayanbhai Gangaram Patel
+2025-08-01 22:42:33,336 - src.utils - INFO - Using paired PAN ADMFS5686D for entity Sanjivkumar Narayanbhai Patel
+2025-08-01 22:42:33,337 - src.utils - INFO - Matched address to entity Sanjivkumar Narayanbhai Patel
+2025-08-01 22:42:33,711 - src.utils - INFO - Matched PAN ALZPP8741M to entity Prakash N (proximity match)
+2025-08-01 22:42:33,712 - src.utils - INFO - Matched address to entity Prakash N
+2025-08-01 22:42:34,074 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:34,074 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:34,418 - src.utils - INFO - Matched address to entity Shivang Prakashchandra  Patel
+2025-08-01 22:42:34,736 - src.utils - INFO - Matched address to entity Late Prakash Narayanbhai  Patel
+2025-08-01 22:42:35,067 - src.utils - INFO - Matched address to entity Shivang P rakasshschan
+2025-08-01 22:42:35,378 - src.utils - INFO - Matched PAN ALZPP8741M to entity dra Patel (proximity match)
+2025-08-01 22:42:35,384 - src.utils - INFO - Matched address to entity dra Patel
+2025-08-01 22:42:35,748 - src.utils - INFO - Matched address to entity Narayanbhai  Patel
+2025-08-01 22:42:36,160 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:36,530 - src.utils - INFO - Matched address to entity Narayanbhai Gangaram Patel  
+2025-08-01 22:42:36,888 - src.utils - INFO - Matched address to entity Narayanbhai  Patel
+2025-08-01 22:42:37,265 - src.utils - INFO - Matched address to entity Narendrabhai Gopalbhai Patel
+2025-08-01 22:42:37,645 - src.utils - INFO - Matched address to entity Sanjivkumar Narayanbhai 
+Patel
+2025-08-01 22:42:38,068 - src.utils - INFO - Matched address to entity Sivang Prakashchangra Patel  1000  10 
+
+2025-08-01 22:42:38,788 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:42:38,789 - src.utils - INFO - Matched address to entity Narayanbhai Gangaram Patel
+2025-08-01 22:42:38,789 - src.utils - INFO - Matched PAN ALZPP8741M to entity Sanjiv Narayanbhai Patel (proximity match)
+2025-08-01 22:42:38,789 - src.utils - INFO - Matched address to entity Sanjiv Narayanbhai Patel
+2025-08-01 22:42:38,790 - src.utils - INFO - Using paired PAN CFSPP3624L for entity Shivang Prakashchandra Patel
+2025-08-01 22:42:38,790 - src.utils - INFO - Matched address to entity Shivang Prakashchandra Patel
+2025-08-01 22:42:38,790 - src.utils - INFO - Matched address to entity Narayanbhai Gangaram Patel
+2025-08-01 22:42:38,791 - src.utils - INFO - Using paired PAN ACNPP1914D for entity M/s Patels Airtemp
+2025-08-01 22:42:38,791 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:38,792 - src.utils - INFO - Matched PAN ALZPP8741M to entity Regu (proximity match)
+2025-08-01 22:42:38,792 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:42:38,793 - src.utils - INFO - Matched PAN ALZPP8741M to entity Narayanbhai G (proximity match)
+2025-08-01 22:42:38,793 - src.utils - INFO - Matched address to entity Narayanbhai G
+2025-08-01 22:42:38,793 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:38,794 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:38,794 - src.utils - INFO - Using paired PAN ACNPP1914D for entity the Securities and Exchange Board
+2025-08-01 22:42:38,794 - src.utils - INFO - Matched address to entity the Securities and Exchange Board
+2025-08-01 22:42:38,795 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:42:38,796 - src.utils - INFO - Using paired PAN ACNPP1914D for entity QJA
+2025-08-01 22:42:38,797 - src.utils - INFO - Matched PAN ALZPP8741M to entity Narayanbhai G (proximity match)
+2025-08-01 22:42:38,798 - src.utils - INFO - Matched address to entity Narayanbhai G
+2025-08-01 22:42:38,798 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:38,798 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:39,124 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticee
+2025-08-01 22:42:39,419 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:39,419 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:39,742 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:39,743 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:40,583 - src.utils - INFO - Matched address to entity Narendrabhai 
+Gangaram  Patel
+2025-08-01 22:42:40,952 - src.utils - INFO - Matched PAN ALZPP8741M to entity Prakash N (proximity match)
+2025-08-01 22:42:40,953 - src.utils - INFO - Matched address to entity Prakash N
+2025-08-01 22:42:41,301 - src.utils - INFO - Using paired PAN AADHP3766P for entity HUF
+2025-08-01 22:42:41,663 - src.utils - INFO - Using paired PAN AADHP3766P for entity HUF
+2025-08-01 22:42:41,994 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:41,994 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:42,305 - src.utils - INFO - Using paired PAN ALZPP8741M for entity Sanjiv Patel
+2025-08-01 22:42:42,305 - src.utils - INFO - Matched address to entity Sanjiv Patel
+2025-08-01 22:42:42,602 - src.utils - INFO - Using paired PAN ACNPP1914D for entity M/s Patels Airtemp
+2025-08-01 22:42:42,949 - src.utils - INFO - Matched address to entity Shivang P Patel  1
+2025-08-01 22:42:43,306 - src.utils - INFO - Matched PAN ALZPP8741M to entity Prakash N (proximity match)
+2025-08-01 22:42:43,307 - src.utils - INFO - Matched address to entity Prakash N
+2025-08-01 22:42:43,646 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:43,647 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:43,966 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:43,966 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:44,590 - src.utils - INFO - Using paired PAN AADHP3766P for entity HUF
+2025-08-01 22:42:44,950 - src.utils - INFO - Matched PAN ALZPP8741M to entity Prakash N (proximity match)
+2025-08-01 22:42:44,952 - src.utils - INFO - Matched address to entity Prakash N
+2025-08-01 22:42:45,329 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:45,329 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:45,671 - src.utils - INFO - Using paired PAN AADHP3766P for entity HUF
+2025-08-01 22:42:45,971 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:45,972 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:46,276 - src.utils - INFO - Using paired PAN AADHP3766P for entity HUF
+2025-08-01 22:42:46,571 - src.utils - INFO - Matched address to entity Narayanbhai G angaram
+2025-08-01 22:42:46,839 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:46,839 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:47,152 - src.utils - INFO - Using paired PAN AADHP3766P for entity HUF
+2025-08-01 22:42:47,496 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:42:47,497 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:42:47,498 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:42:47,499 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:42:47,499 - src.utils - INFO - Matched PAN ALZPP8741M to entity Sections (proximity match)
+2025-08-01 22:42:47,500 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:42:47,500 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:42:47,500 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:42:47,501 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:42:47,501 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:42:47,502 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:42:47,502 - src.utils - INFO - Using paired PAN AABCT7264M for entity inter alia
+2025-08-01 22:42:48,114 - src.utils - INFO - Matched address to entity Nikhil M. Patel
+2025-08-01 22:42:48,422 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:42:48,722 - src.utils - INFO - Using paired PAN AABCT7264M for entity Order
+2025-08-01 22:42:49,012 - src.utils - INFO - Using paired PAN ACNPP1914D for entity M/s Patels Airtemp
+2025-08-01 22:42:49,413 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:42:49,722 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:42:50,439 - src.utils - INFO - Using paired PAN AABCT7264M for entity NCLT
+2025-08-01 22:42:50,440 - src.utils - INFO - Matched address to entity NCLT
+2025-08-01 22:42:50,780 - src.utils - INFO - Matched PAN ALZPP8741M to entity Complainant (proximity match)
+2025-08-01 22:42:51,460 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:52,885 - src.utils - INFO - Matched PAN ALZPP8741M to entity BSE (proximity match)
+2025-08-01 22:42:53,952 - src.utils - INFO - Matched PAN ALZPP8741M to entity Complainant (proximity match)
+2025-08-01 22:42:54,591 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:54,911 - src.utils - INFO - Matched PAN ALZPP8741M to entity Complainant (proximity match)
+2025-08-01 22:42:55,251 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:55,251 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:55,582 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:55,884 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:56,197 - src.utils - INFO - Matched PAN ALZPP8741M to entity Complainant (proximity match)
+2025-08-01 22:42:56,832 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:42:57,132 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:57,132 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:57,481 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:57,482 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:42:57,781 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:42:58,104 - src.utils - INFO - Using paired PAN ACNPP1914D for entity M/s Patels Airtemp
+2025-08-01 22:42:58,398 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:42:58,398 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:00,293 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:43:00,629 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narumalani
+2025-08-01 22:43:00,967 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:43:01,345 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:43:01,712 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:43:02,078 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:43:02,431 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:43:02,763 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:43:03,106 - src.utils - INFO - Matched address to entity Narayanbhai Gangaram Patel
+2025-08-01 22:43:03,444 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:43:03,755 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:03,755 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:04,076 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:04,077 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:04,425 - src.utils - INFO - Using paired PAN AABCT7264M for entity Order
+2025-08-01 22:43:04,757 - src.utils - INFO - Using paired PAN AABCT7264M for entity NCLT
+2025-08-01 22:43:04,759 - src.utils - INFO - Matched address to entity NCLT
+2025-08-01 22:43:05,452 - src.utils - INFO - Matched address to entity Narendrabhai Gopalbhai Patel
+2025-08-01 22:43:05,820 - src.utils - INFO - Matched address to entity TFE PL
+2025-08-01 22:43:06,149 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:06,150 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:06,508 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:06,509 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:06,872 - src.utils - INFO - Using paired PAN AABCT7264M for entity Order
+2025-08-01 22:43:07,244 - src.utils - INFO - Using paired PAN ACNPP1914D for entity M/s Patels Airtemp
+2025-08-01 22:43:07,944 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narendra
+2025-08-01 22:43:07,944 - src.utils - INFO - Matched address to entity Narendra
+2025-08-01 22:43:08,257 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:08,258 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:08,563 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:08,564 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:08,922 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:08,922 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:09,279 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:09,280 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:09,648 - src.utils - INFO - Matched address to entity Narayanbhai  Patel
+2025-08-01 22:43:10,002 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narendra
+2025-08-01 22:43:10,002 - src.utils - INFO - Matched address to entity Narendra
+2025-08-01 22:43:10,331 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:10,332 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:10,651 - src.utils - INFO - Using paired PAN AABCT7264M for entity NCLT
+2025-08-01 22:43:10,652 - src.utils - INFO - Matched address to entity NCLT
+2025-08-01 22:43:10,982 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:43:11,309 - src.utils - INFO - Using paired PAN AABCT7264M for entity NCLT
+2025-08-01 22:43:11,309 - src.utils - INFO - Matched address to entity NCLT
+2025-08-01 22:43:11,665 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:43:12,033 - src.utils - INFO - Using paired PAN AABCT7264M for entity NCLT
+2025-08-01 22:43:12,033 - src.utils - INFO - Matched address to entity NCLT
+2025-08-01 22:43:12,364 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:12,364 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:12,690 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:12,690 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:13,052 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:43:13,383 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:13,384 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:13,758 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:13,759 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:14,100 - src.utils - INFO - Using paired PAN AABCT7264M for entity NCLT
+2025-08-01 22:43:14,101 - src.utils - INFO - Matched address to entity NCLT
+2025-08-01 22:43:14,783 - src.utils - INFO - Using paired PAN AABCT7264M for entity NCLT
+2025-08-01 22:43:14,784 - src.utils - INFO - Matched address to entity NCLT
+2025-08-01 22:43:15,132 - src.utils - INFO - Matched address to entity Narendrabhai Patel
+2025-08-01 22:43:15,468 - src.utils - INFO - Matched address to entity Gangaram Patel
+2025-08-01 22:43:16,006 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:43:16,399 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:16,400 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:16,831 - src.utils - INFO - Matched address to entity Late Prakash Narayanb
+2025-08-01 22:43:17,216 - src.utils - INFO - Matched PAN ALZPP8741M to entity hai Patel (proximity match)
+2025-08-01 22:43:17,217 - src.utils - INFO - Matched address to entity hai Patel
+2025-08-01 22:43:17,784 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narendra
+2025-08-01 22:43:17,784 - src.utils - INFO - Matched address to entity Narendra
+2025-08-01 22:43:18,540 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:18,541 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:18,932 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:18,932 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:19,288 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:19,289 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:19,712 - src.utils - INFO - Matched address to entity inter se
+2025-08-01 22:43:20,517 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narumalani
+2025-08-01 22:43:20,846 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:43:21,185 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:43:21,559 - src.utils - INFO - Matched address to entity Late Praka sh 
+ 
+Order
+2025-08-01 22:43:21,891 - src.utils - INFO - Using paired PAN ACNPP1914D for entity M/s Patels Airtemp
+2025-08-01 22:43:22,241 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narayanbhai Patel
+2025-08-01 22:43:22,242 - src.utils - INFO - Matched address to entity Narayanbhai Patel
+2025-08-01 22:43:22,647 - src.utils - INFO - Matched address to entity Narayanbhai Gangaram Patel
+2025-08-01 22:43:23,393 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:23,394 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:24,178 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:24,179 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:24,531 - src.utils - INFO - Matched PAN ALZPP8741M to entity Prakash N (proximity match)
+2025-08-01 22:43:24,532 - src.utils - INFO - Matched address to entity Prakash N
+2025-08-01 22:43:24,858 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:24,859 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:25,175 - src.utils - INFO - Matched PAN ALZPP8741M to entity Complainant (proximity match)
+2025-08-01 22:43:25,818 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narendra
+2025-08-01 22:43:25,818 - src.utils - INFO - Matched address to entity Narendra
+2025-08-01 22:43:26,098 - src.utils - INFO - Matched address to entity Gopalbhai Patel
+2025-08-01 22:43:26,646 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:43:26,931 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narendra
+2025-08-01 22:43:26,931 - src.utils - INFO - Matched address to entity Narendra
+2025-08-01 22:43:27,279 - src.utils - INFO - Using paired PAN AABCT7264M for entity Gopalbhai  Patel
+2025-08-01 22:43:27,279 - src.utils - INFO - Matched address to entity Gopalbhai  Patel
+2025-08-01 22:43:27,763 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:27,764 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:27,982 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:27,983 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:28,208 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:43:28,417 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:28,417 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:28,644 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:43:28,880 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:43:29,325 - src.utils - INFO - Matched address to entity NCLT Ahmedabad
+2025-08-01 22:43:29,529 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narendra
+2025-08-01 22:43:29,530 - src.utils - INFO - Matched address to entity Narendra
+2025-08-01 22:43:29,727 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:29,728 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:29,919 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:29,920 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:30,423 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:43:30,668 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:43:30,995 - src.utils - INFO - Matched PAN ALZPP8741M to entity Narayanbhai G (proximity match)
+2025-08-01 22:43:30,997 - src.utils - INFO - Matched address to entity Narayanbhai G
+2025-08-01 22:43:31,192 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:31,193 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:31,429 - src.utils - INFO - Matched address to entity Sanjiv Narayanbhai 
+Patel
+2025-08-01 22:43:31,623 - src.utils - INFO - Using paired PAN CFSPP3624L for entity Shivang Prakashchandra Patel
+2025-08-01 22:43:31,623 - src.utils - INFO - Matched address to entity Shivang Prakashchandra Patel
+2025-08-01 22:43:31,844 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:43:32,082 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:32,083 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:32,303 - src.utils - INFO - Using paired PAN AABCT7264M for entity Narayanbhai Patel
+2025-08-01 22:43:32,305 - src.utils - INFO - Matched address to entity Narayanbhai Patel
+2025-08-01 22:43:32,557 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:43:32,788 - src.utils - INFO - Using paired PAN ACNPP1914D for entity M/s Patels Airtemp
+2025-08-01 22:43:33,026 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:43:33,830 - src.utils - INFO - Matched PAN ALZPP8741M to entity Patel (proximity match)
+2025-08-01 22:43:33,830 - src.utils - INFO - Matched address to entity Patel
+2025-08-01 22:43:34,065 - src.utils - INFO - Matched address to entity Narayanbhai  Patel
+2025-08-01 22:43:34,275 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
+2025-08-01 22:43:34,679 - src.utils - INFO - Matched PAN ALZPP8741M to entity BSE (proximity match)
+2025-08-01 22:43:34,885 - src.utils - INFO - Matched PAN ALZPP8741M to entity Complainant (proximity match)
+2025-08-01 22:43:35,068 - src.utils - INFO - Matched PAN ALZPP8741M to entity Complainant (proximity match)
+2025-08-01 22:43:35,257 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:43:35,442 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:43:35,633 - src.utils - INFO - Using paired PAN AABCT7264M for entity Order
+2025-08-01 22:43:35,822 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:43:36,004 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:43:36,177 - src.utils - INFO - Using paired PAN AABCT7264M for entity Order
+2025-08-01 22:43:36,343 - src.utils - INFO - Using paired PAN ACNPP1914D for entity M/s Patels Airtemp
+2025-08-01 22:43:36,657 - src.utils - INFO - Using paired PAN AABCT7264M for entity Noticees
+2025-08-01 22:43:36,822 - src.utils - INFO - Matched address to entity SCN
+2025-08-01 22:43:36,993 - src.utils - INFO - Using paired PAN AABCT7264M for entity TFEPL
