@@ -5,7 +5,7 @@ Reset checkpoint and check database status
 from src.db import profiles_collection, checkpoint_collection
 
 def reset_and_check():
-    print("🔍 Checking current status...")
+    print("Checking current status...")
     
     # Check current checkpoint
     checkpoint = checkpoint_collection.find_one({"type": "profile"})

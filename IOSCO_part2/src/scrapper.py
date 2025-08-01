@@ -1,6 +1,4 @@
-import json
 import time
-import traceback
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -218,7 +216,7 @@ def scrape_profiles():
         print(f"Total profiles found: {len(rows)}")
         
         if len(rows) == 0:
-            print("❌ No data rows found. The page structure might have changed.")
+            print(" No data rows found. The page structure might have changed.")
             return
         
         last_index = load_checkpoint()
@@ -228,11 +226,11 @@ def scrape_profiles():
         # Process each row without re-finding DOM elements to avoid corruption
         for i in range(last_index, len(rows)):
             try:
-                print(f"🔄 Processing row {i+1}/{len(rows)}")
+                print(f" Processing row {i+1}/{len(rows)}")
                 
                 # Use original rows list to avoid DOM re-query issues
                 if i >= len(rows):
-                    print(f"⚠️ Row {i+1} index out of bounds, stopping...")
+                    print(f" Row {i+1} index out of bounds, stopping...")
                     break
                     
                 row = rows[i]
@@ -265,7 +263,7 @@ def scrape_profiles():
                     
                     # Skip empty entries
                     if not profile_data["name"] or profile_data["name"] == "":
-                        print(f"⚠️ Row {i+1} has empty name, skipping...")
+                        print(f" Row {i+1} has empty name, skipping...")
                         continue
                     
                     # Extract region from authority
@@ -282,36 +280,36 @@ def scrape_profiles():
                     result = profiles_collection.insert_one(profile_data)
                     if result.inserted_id:
                         successful_extractions += 1
-                        print(f"✅ Saved profile {i+1}/{len(rows)}: {profile_data['name']}")
+                        print(f"Saved profile {i+1}/{len(rows)}: {profile_data['name']}")
                         print(f"   Authority: {profile_data['authority']} | Region: {profile_data['additional_metadata']['region']}")
                         
                         # Update checkpoint after successful save
                         save_checkpoint(i + 1)
                     else:
-                        print(f"❌ Failed to save profile {i+1}")
+                        print(f" Failed to save profile {i+1}")
                         
                     # Small delay between profiles to be respectful
                     time.sleep(0.5)
                     
                 else:
-                    print(f"⚠️ Row {i+1} has only {len(cells)} cells, skipping...")
+                    print(f" Row {i+1} has only {len(cells)} cells, skipping...")
                     # Print the cell contents for debugging
                     for j, cell in enumerate(cells):
                         print(f"     Cell {j}: '{cell.text.strip()}'")
                     
             except Exception as e:
-                print(f"⚠️ Error processing row {i+1}: {e}")
+                print(f" Error processing row {i+1}: {e}")
                 import traceback
                 traceback.print_exc()
                 # Continue with next row instead of breaking
                 continue
         
-        print(f"🎉 Scraping completed! Successfully extracted {successful_extractions} profiles.")
+        print(f" Scraping completed! Successfully extracted {successful_extractions} profiles.")
         
     except Exception as e:
-        print(f"❌ Fatal error during scraping: {e}")
+        print(f" Fatal error during scraping: {e}")
         import traceback
         traceback.print_exc()
     finally:
         driver.quit()
-        print("🏁 Browser closed")
+        print(" Browser closed")
