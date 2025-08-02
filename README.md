@@ -16,7 +16,6 @@ intellewings_assessment/
 ├── README.md                  # This file
 ├── sebi_scraper/              # SEBI enforcement orders scraper
 │   ├── main.py
-│   ├── README.md
 │   ├── reset_checkpoint.py
 │   ├── config/
 │   │   └── config.py          # Configuration settings
